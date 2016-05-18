@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+#loader_layer4
+{
+	width: 105%;
+	height: 1000%;
+	background: none;
+	background-repeat: no-repeat;
+	background-color: #3C3C3C;
+	right: 0;
+}
+
+#previous_comment_container
+{
+	overflow:visible;
+	height: 105%;
+}
+
+#jdbox_image_container #jdbox_image_prev,
+#jdbox_image_container #jdbox_image_next,
+#jdbox_image_container #jdbox_image_uploadedtimestamp,
+#jdbox_image_container #jdbox_image_tags,
+#jdbox_image_container #jdbox_image_close,
+#jdbox_image_container #jdbox_image_caption,
+#jdbox_image_container #jdbox_image_newwindow
+{
+	font-size: 2.4em;
+}
+#jdbox_image_container #jdbox_image_close,
+#comment_close
+{
+	font-size: 2.7em;
+}
+#jdbox_image_container #jdbox_image_prev
+{
+	top: 75px;
+}
+#jdbox_image_container #jdbox_image_next
+{
+	top: 120px;
+}
+#jdbox_image_container #jdbox_image_uploadedtimestamp
+{
+	top: 200px;
+	background-color:#FFFF00;
+}
+#jdbox_image_container #jdbox_image_views
+{
+	font-size: 2.4em;
+	top: 250px;
+}
+#jdbox_image_container #jdbox_image_tags
+{
+	top: 300px;
+	background-color:#FFFF00;
+}
+#jdbox_image_container #jdbox_image_caption
+{
+	font-size: 2.7em;
+	top: 350px;
+}
+#jdbox_image_container #jdbox_image_newwindow
+{
+	bottom: 0px;
+}
+
