@@ -1,9 +1,10 @@
 # README
 
 ## Dissertation project for the MSc in Design and Digital Media (2009-2010) at the University of Edinburgh.
+
 **Built date:** Mid 2010
 
-**Website URL:** [retinadestruction.nfshost.com/](http://retinadestruction.nfshost.com/)
+**Website URL:** [retinadestruction.nfshost.com](http://retinadestruction.nfshost.com/)
 
 **Git Repo:** [https://github.com/dchantzis/retinadestruction](https://github.com/dchantzis/retinadestruction)
 
@@ -11,11 +12,20 @@
 
 **Dissertation:** [retinadestruction.nfshost.com/files/[s0972736]DISSERTATION[DIMITRIOS_CHANTZIS][dissertation].pdf](http://retinadestruction.nfshost.com/files/[s0972736]DISSERTATION[DIMITRIOS_CHANTZIS][dissertation].pdf)
 
+Presentation Videos:
+
+- Account Actions: [http://vimeo.com/15768414](http://vimeo.com/15768414)
+- myAccount Operations #1: [http://vimeo.com/15768434](http://vimeo.com/15768434)
+- myAccount Operations #2: [http://vimeo.com/15768466](http://vimeo.com/15768466)
+- myAccount Operations #3: [http://vimeo.com/15768527](http://vimeo.com/15768527)
+
+---
+
 **This is website is currently *inactive* and operates strictly for demonstration purposes.**
 
 **Registration processes are inactive.**
 
-The objective of this dissertation is the design and implementation of a web application called Retina-Destruction.
+The objective of this dissertation is the design and implementation of a CMS called Retina-Destruction.
 
 This system is used to generate customizable portfolio websites for visual artists.
 
