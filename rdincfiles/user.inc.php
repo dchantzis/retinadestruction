@@ -276,7 +276,7 @@ function get_user_overview($listType,$userID)
 
 					echo "<ul class='display_portfolio_info_otherinfo_ul'>";
 						echo "<li><b>Username:</b> "."<span id='' class='text_highlight text_highlight_bg'>".$userData['username']."</span>"."</li>";
-						echo "<li><b>Website URL:</b> "."<a href='".SERVER_NAME."?".$userData['username']."' class='blacklink'>".SERVER_NAME."?".$userData['username']."</a>"."</li>";
+						echo "<li><b>Website URL:</b> "."<a href='".SERVER_NAME."portfolioindex.php?".$userData['username']."' class='blacklink'>".SERVER_NAME."?".$userData['username']."</a>"."</li>";
 						echo "<li><b>Name: </b>"."<span id='' class='text_highlight text_highlight_bg'>".$userData['name']."</span>"."</li>";
 						echo "<li><b>E-Mail: </b>"."<span id='' class='text_highlight text_highlight_bg'>".$userData['email']."</span>"."</li>";
 						echo "<li><b>Gender: </b>"."<span id='' class='text_highlight text_highlight_bg'>".$userData['gender']."</span>"."</li>";

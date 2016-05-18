@@ -60,7 +60,7 @@ function email_newcomment_send($senderVarsArr, $profileVarsArr) //sendNewComment
 						.convertTimeStamp($senderVarsArr['submitiontimestamp'],'reallylong').': '."\r\n"."\r\n";
 	$emailVals['message'] .= "\t\t".$senderVarsArr['name']." said: "."\"".$senderVarsArr['body']."\""."\r\n"."\r\n";
 	$emailVals['message'] .= 'To view your profile go to: ';
-	$emailVals['message'] .= SERVER_NAME. '?'.$profileVarsArr['username']."\r\n"."\r\n";
+	$emailVals['message'] .= SERVER_NAME. 'portfolioindex.php?'.$profileVarsArr['username']."\r\n"."\r\n";
 	$emailVals['message'] .= "\r\n"."\r\n"."Please do not reply to this message.";
 
 	email_send($emailVals);

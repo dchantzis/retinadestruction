@@ -2645,7 +2645,7 @@ function layout_get_artistindex_contents()
 				echo "<img src='".$avatarHTML."' class='artistprofile_picture thumbsimages' alt='Profile picture' title='Profile picture' width='200' height='133' />";
 				echo "<div class='artistprofilecontainers'>";
 					echo "<span id='artistprofilelink_".$userData[$key]['uid']."' class='artistprofile_name'>"
-						."<a href='".SERVER_NAME."?".$userData[$key]['username']."'>".$artistName."</a>";
+						."<a href='".SERVER_NAME."portfolioindex.php?".$userData[$key]['username']."'>".$artistName."</a>";
 					echo "</span>";
 					echo "<div class='artistprofile_title'>".$userData[$key]['title']."</div>";
 					echo "<div class='artistprofile_views'>(".$userData[$key]['views']." <b>views</b>)</div>";
@@ -2787,7 +2787,7 @@ function layout_get_featuredartists_contents()
 				echo "<img src='".$avatarHTML."' class='artistprofile_picture thumbsimages' alt='Profile picture' title='Profile picture' width='180' height='120' />";
 				echo "<div class='artistprofilecontainers'>";
 					echo "<span id='artistprofilelink_".$userData[$key]['uid']."' class='artistprofile_name'>"
-						."<a href='".SERVER_NAME."?".$userData[$key]['username']."'>".$artistName."</a>";
+						."<a href='".SERVER_NAME."portfolioindex.php?".$userData[$key]['username']."'>".$artistName."</a>";
 					echo "</span>";
 					echo "<div class='artistprofile_title'>".$userData[$key]['title']."</div>";
 					echo "<div class='artistprofile_description'>".substr(nl2br($userData[$key]['description']),0,160)."..."."</div>";
